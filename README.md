@@ -74,7 +74,7 @@
 ## GitHub Actions 自动构建
 推送或提交 PR 后，`.github/workflows/build-apk.yml` 会自动：
 
-1. 安装 JDK 11、Android platform 36 和 build-tools 35
+1. 安装 JDK 17、Android platform 36 和 build-tools 35
 2. 执行 `bash build.sh`
 3. 生成 `netpulse.apk` 与 SHA-256 校验文件
 4. 上传为 Actions Artifact：`netpulse-apk`
@@ -91,7 +91,7 @@
 未配置 secrets 时，`build.sh` 会在本地自动生成 `netpulse.keystore`，该文件和 APK 均已被 `.gitignore` 排除。
 
 ## 本地构建
-需要 JDK 11、Android SDK platform 36 与任一较新的 build-tools。脚本会自动探测 SDK、JDK 和 build-tools：
+需要 JDK 11+（CI 使用 17）、Android SDK platform 36 与任一较新的 build-tools。脚本会自动探测 SDK、JDK 和 build-tools：
 
 ```bash
 bash build.sh
