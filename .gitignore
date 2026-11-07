@@ -1,0 +1,22 @@
+# Build output
+build/
+*.apk
+*.aab
+*.idsig
+*.apk.sha256
+
+# Signing secrets and machine-specific configuration
+*.keystore
+*.jks
+keystore.properties
+local.properties
+
+# Local captures may contain SSID/IP/tower identifiers
+screenshots/
+
+# IDE / OS / logs
+.idea/
+.gradle/
+.DS_Store
+Thumbs.db
+*.log

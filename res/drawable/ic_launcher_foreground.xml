@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Same mark as the in-app LogoView: bright gradient pulse badge. -->
+    <path
+        android:pathData="M54,54 m-31.5,0 a31.5,31.5 0,1 1,63 0 a31.5,31.5 0,1 1,-63 0">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="22.5"
+                android:startY="22.5"
+                android:endX="85.5"
+                android:endY="85.5"
+                android:startColor="#4CF7CB"
+                android:centerColor="#29D8E9"
+                android:endColor="#4C8DFF" />
+        </aapt:attr>
+    </path>
+
+    <path
+        android:pathData="M54,54 m-27.1,0 a27.1,27.1 0,1 1,54.2 0 a27.1,27.1 0,1 1,-54.2 0"
+        android:strokeColor="#42FFFFFF"
+        android:strokeWidth="1.4"
+        android:fillColor="@android:color/transparent" />
+
+    <path
+        android:pathData="M38.5,57.1 L47.7,57.1 L52.5,48.8 L60.3,60.6 L65,54.2 L72.2,54.2"
+        android:strokeColor="#07141F"
+        android:strokeWidth="4.6"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="@android:color/transparent" />
+
+    <path
+        android:pathData="M38.5,57.1 m-2.2,0 a2.2,2.2 0,1 1,4.4 0 a2.2,2.2 0,1 1,-4.4 0"
+        android:fillColor="#07141F" />
+    <path
+        android:pathData="M72.2,54.2 m-2.2,0 a2.2,2.2 0,1 1,4.4 0 a2.2,2.2 0,1 1,-4.4 0"
+        android:fillColor="#07141F" />
+</vector>
